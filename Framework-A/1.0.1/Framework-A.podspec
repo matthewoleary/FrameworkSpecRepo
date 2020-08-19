@@ -14,7 +14,7 @@ Pod::Spec.new do |spec|
 
   spec.description  = "Contains Printer for use in transitive dependency demonstration"
 
-  spec.homepage     = "http://EXAMPLE/Framework-A"
+  spec.homepage     = "https://github.com/matthewoleary/Framework-A"
 
   spec.license      = "MIT"
 
@@ -24,7 +24,7 @@ Pod::Spec.new do |spec|
   spec.swift_version = "5.2"
   spec.ios.deployment_target = "13.5"
 
-  spec.source       = { :git => "https://github.com/zendesk-moleary/Framework-A.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/matthewoleary/Framework-A.git", :tag => "#{spec.version}" }
 
   spec.vendored_frameworks = "Printer.framework"
   spec.source_files  = "Printer.framework/Headers/*.h"
