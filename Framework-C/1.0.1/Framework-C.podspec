@@ -14,7 +14,7 @@ Pod::Spec.new do |spec|
 
   spec.description  = "Contains HelloPrinter for use in transitive dependency demonstration"
 
-  spec.homepage     = "http://EXAMPLE/Framework-C"
+  spec.homepage     = "https://github.com/matthewoleary/Framework-C"
 
   spec.license      = "MIT"
 
@@ -24,7 +24,7 @@ Pod::Spec.new do |spec|
   spec.swift_version = "5.2"
   spec.ios.deployment_target = "13.5"
 
-  spec.source       = { :git => "https://github.com/zendesk-moleary/Framework-C.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/matthewoleary/Framework-C.git", :tag => "#{spec.version}" }
 
   spec.vendored_frameworks = "HelloPrinter.framework"
   spec.source_files  = "HelloPrinter.framework/Headers/*.h"
